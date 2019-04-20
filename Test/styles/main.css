@@ -25,6 +25,7 @@ body {
   position: relative;
   font-size: 16px;
   line-height: 1;
+  margin: 0;
 }
 
 img {
@@ -1004,6 +1005,9 @@ body.customize-support .wp-panel-show {
 }
 
 @media screen and (max-width: 992px) {
+  .header_search .search_wrap {
+    margin-right: 20px;
+  }
   .header_top_content {
     height: auto;
     padding-bottom: 5px;
