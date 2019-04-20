@@ -510,6 +510,7 @@ body.customize-support .wp-panel-show {
   display: flex;
   -ms-flex-align: center;
       align-items: center;
+  justify-content: center;
 }
 
 .header_fixed .main_nav.active {
@@ -941,8 +942,16 @@ body.customize-support .wp-panel-show {
   bottom: 146px;
   right: 63px;
 }
+@media screen and (max-width: 1366px) {
+  .header_fixed .main_nav ul a{
+    font-size: 37px;
+  }
+}
 
 @media screen and (max-width: 1280px) {
+  .header_fixed .main_nav ul a{
+    font-size: 34px;
+  }
   .mbox {
     max-width: 992px;
   }
